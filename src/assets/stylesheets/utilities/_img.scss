@@ -1,0 +1,20 @@
+.object-fit-cover {
+  object-fit: cover;
+}
+
+.object-position-center {
+  object-position: 50%;
+}
+
+.img-cover {
+  object-fit: cover;
+  object-position: 50%;
+}
+
+.img-hover {
+  transition: all 0.3s ease-out;
+  &:hover {
+    filter: brightness(70%);
+    transform: scale(1.2, 1.2);
+  }
+}

@@ -1,0 +1,30 @@
+.h-100vh {
+  height: calc(100vh);
+}
+
+.h-15s {
+  height: 250px;
+}
+
+.h-19s {
+  height: 300px;
+}
+
+@include media-breakpoint-up(md) {
+  .h-md-19s {
+    height: 300px;
+  }
+}
+@include media-breakpoint-up(lg) {
+  .h-lg-22s {
+    height: 350px;
+  }
+}
+
+.mh-10s {
+  min-height: 150px;
+}
+
+.w-13s {
+  width: 200px;
+}
