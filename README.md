@@ -1,5 +1,11 @@
 # vue3-template
 
+## Project deploy
+```
+sh deploy.sh
+```
+請自行修改 deploy.sh 的 git Repo 路徑
+
 ## Project setup
 ```
 npm install
